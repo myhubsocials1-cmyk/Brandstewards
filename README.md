@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Brandstewards
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/f5a3e87e-1c4e-4ae0-aaf7-fe4d5251f4b9
+This is the official website for BrandStewards Limited - a Digital Marketing, Brand, and Reputation Management consultancy operating from Nigeria and the United Kingdom.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000`
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is configured for easy deployment to Vercel. Push your code to GitHub and connect your repository to Vercel for automatic deployments.
